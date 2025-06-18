@@ -19,5 +19,17 @@ there are many things in css learn by experience and use tailwind css this will 
 
 Always use chrome developer tools to debug the CSS easily -> we can change the things and look how it will look dynamicaly
 
+<html>
+  <head>
+    <title>
+      V S Code
+    </title>
+  </head>
+  <body>
+    hello
+  </body>
+</html>
 
+
+JAVASCRIPT 
 
