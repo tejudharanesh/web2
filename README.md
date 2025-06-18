@@ -3,7 +3,7 @@
 
 HTML- hypertext markup language
 Defines the structure of the websites what should be placed in a particular order 
-There are many tags in htms to create a website structure -- <h1> <img> <p> <a> <button> <form>
+There are many tags in htms to create a website structure h1 <img> <p> <a> <button> <form>
 These tags have attributes -> attributes provide additional information about HTML elements --> for img tag there eill be src and alt attributes 
 
 
