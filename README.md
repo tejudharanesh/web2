@@ -19,17 +19,35 @@ there are many things in css learn by experience and use tailwind css this will 
 
 Always use chrome developer tools to debug the CSS easily -> we can change the things and look how it will look dynamicaly
 
-<html>
-  <head>
-    <title>
-      V S Code
-    </title>
-  </head>
-  <body>
-    hello
-  </body>
-</html>
 
 
-JAVASCRIPT 
+
+JAVASCRIPT
+1) Interpreted -  javascript execute line by line at runtime (in otherlanguages like c c++ java rust they are compiled and run the code there will be lot of checks in the compilation stage it is the good thing afterthis the code will run fast) javascript will be prone to more run time errors
+2) Dynamically typed (loosely typed)  - variables in JS are not bound to a specific data types,we can change the datatype of the variable in the run time
+3) Single Threaded - it process one task at a time (Utilises only one cpu)
+4) Garbage collector - JS automatically manages the garbage collection
+
+syntax of javascript
+
+let name = 'teju';
+const age = 24;
+var isStudent = true;
+
+
+function sum(a,b) {  //function declaration
+return a+b;
+}
+let ans = sum(2,3);  //valling a function
+console.log(ans);
+
+
+I/O heavy operations :-
+accesing a file -> from the cpu(may take 3 sec or  10 seconds or it will be occoupied by other resources)
+starting a clock
+http requests
+
+const fs = require('fs');
+const contents = fs.readFileSync("a.txt','utf-8');
+console.log(contents);
 
