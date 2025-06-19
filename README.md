@@ -38,7 +38,7 @@ var isStudent = true;
 function sum(a,b) {  //function declaration
 return a+b;
 }
-let ans = sum(2,3);  //valling a function
+let ans = sum(2,3);  //calling a function
 console.log(ans);
 
 
@@ -50,4 +50,6 @@ http requests
 const fs = require('fs');
 const contents = fs.readFileSync("a.txt','utf-8');
 console.log(contents);
+
+
 
